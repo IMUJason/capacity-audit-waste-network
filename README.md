@@ -17,9 +17,11 @@ src/capacity_audit/         core library (instance schema, covariance models,
 experiments/
   common.py          shared setup: instance builder, four covariance
                      specifications, design constants
-  run_ladder.py      Experiment 1 -> results/ladder.json
-  analyze_ladder.py  analysis     -> results/ladder_analysis.json
-  run_enforcement.py Experiment 2 -> results/enforcement.json
+  run_ladder.py           Experiment 1 -> results/ladder.json
+  analyze_ladder.py       analysis     -> results/ladder_analysis.json
+  run_enforcement.py      Experiment 2 -> results/enforcement.json
+  run_demand_boundary.py  Experiment 3 -> results/demand_boundary.json
+  run_shocks.py           Experiment 4 -> results/shocks.json
 results/             output directory (created on first run)
 ```
 
@@ -45,7 +47,12 @@ From the repository root:
 python experiments/run_ladder.py        # ~1 h on one core
 python experiments/analyze_ladder.py    # ~10 min (scenario re-evaluation)
 python experiments/run_enforcement.py   # ~1 h on one core
+python experiments/run_demand_boundary.py  # ~75 min on one core
+python experiments/run_shocks.py        # ~5 min on one core
 ```
+
+Every experiment script accepts `--smoke` for a fast (reduced-scenario,
+single-specification) execution check.
 
 All seeds, scenario counts, and grid points are fixed inside the
 scripts; outputs are deterministic given the same library versions.
