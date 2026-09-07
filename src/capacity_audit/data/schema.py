@@ -1,4 +1,4 @@
-"""Plain dataclasses for tre_dro (no pydantic dependency; keeps numpy arrays)."""
+"""Plain dataclasses for capacity_audit (no pydantic dependency; keeps numpy arrays)."""
 from __future__ import annotations
 
 from dataclasses import dataclass, field

@@ -12,7 +12,7 @@ enforcement-by-capacity grid (144 solves).
 data/raw/            frozen input snapshot (read-only)
   cdw_estimation_1990_2022.csv   city-year C&D generation panel
   facility_list.csv              candidate-facility parameterization
-src/tre_dro/         core library (instance schema, covariance models,
+src/capacity_audit/         core library (instance schema, covariance models,
                      scenario generation, mean-CVaR SAA solver, recourse LP)
 experiments/
   common.py          shared setup: instance builder, four covariance

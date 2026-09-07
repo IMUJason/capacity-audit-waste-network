@@ -21,9 +21,9 @@ import numpy as np
 
 from common import (CVAR_ALPHA, CRF, N_SCENARIOS, RISK_WEIGHT, SEEDS,
                     build_covariance_models, build_instance, fit_forecast)
-from tre_dro.ambiguity.spatiotemporal import generate_lognormal_mixture_scenarios
-from tre_dro.models.dro_facility_location import FacilityLocationProblem
-from tre_dro.models.recourse import solve_nominal_recourse
+from capacity_audit.ambiguity.spatiotemporal import generate_lognormal_mixture_scenarios
+from capacity_audit.models.dro_facility_location import FacilityLocationProblem
+from capacity_audit.models.recourse import solve_nominal_recourse
 
 CERTIFIED = [0, 1, 2, 3, 4, 9, 10, 11, 12, 16, 21, 22, 23, 24, 30, 31]
 BETAS = (1.0, 10.0, 100.0)  # multiples of the implied capacity rate, yuan/ton-yr

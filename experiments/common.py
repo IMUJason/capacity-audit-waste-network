@@ -16,18 +16,18 @@ for p in (REPO, REPO / "src"):
 
 import numpy as np
 
-from tre_dro.ambiguity.covariance import (
+from capacity_audit.ambiguity.covariance import (
     build_spatial_sigma,
     haversine_km_matrix,
 )
-from tre_dro.ambiguity.spatial_econometrics import build_knn_weight_matrix
-from tre_dro.ambiguity.spatiotemporal import (
+from capacity_audit.ambiguity.spatial_econometrics import build_knn_weight_matrix
+from capacity_audit.ambiguity.spatiotemporal import (
     fit_pooled_sem,
     fit_trailing_mean_forecast,
     fit_variance_matched_ledoit_wolf,
 )
-from tre_dro.data.raw_loader import load_cdw_timeseries, load_facility_list
-from tre_dro.data.schema import Customer, Facility, Instance, Moments
+from capacity_audit.data.raw_loader import load_cdw_timeseries, load_facility_list
+from capacity_audit.data.schema import Customer, Facility, Instance, Moments
 
 # --- design constants --------------------------------------------------
 DEMAND_PROVINCES = ["江苏省", "浙江省", "安徽省"]

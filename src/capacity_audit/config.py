@@ -10,7 +10,7 @@ from __future__ import annotations
 from pathlib import Path
 
 # --- Anchored paths ---------------------------------------------------------
-# .../<repo>/src/tre_dro/config.py
+# .../<repo>/src/capacity_audit/config.py
 HERE = Path(__file__).resolve()
 REPO_ROOT = HERE.parents[2]
 

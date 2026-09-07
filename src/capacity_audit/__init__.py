@@ -1,4 +1,4 @@
-"""tre_dro: spatial-covariance calibration for robust facility location.
+"""capacity_audit: spatial-covariance calibration for robust facility location.
 
 The package distinguishes exact fixed-linear-functional moment bounds
 from deterministic stress proxies and dual-linearization diagnostics.
