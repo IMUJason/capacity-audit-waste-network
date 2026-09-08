@@ -1,0 +1,229 @@
+{
+  "name": "QZ-real-1",
+  "description": "Real hotspot calibration",
+  "horizon_label": "Representative daily dispatch planning",
+  "vehicle_capacity": 8,
+  "vehicle_fixed_cost": 38.0,
+  "transport_cost_per_km": 2.2,
+  "max_route_minutes": 720,
+  "day_start": 540,
+  "day_end": 1290,
+  "average_speed_kmph": 28.0,
+  "restricted_center": {
+    "x": 118.8729,
+    "y": 28.9417
+  },
+  "restricted_radius_km": 5.0,
+  "restricted_window": [
+    420,
+    1320
+  ],
+  "restricted_penalty_factor": 1.18,
+  "customers": [
+    {
+      "id": 0,
+      "name": "九华隧道（二期）及紫薇隧道工程",
+      "x": 118.862154,
+      "y": 28.966447,
+      "demand": 6,
+      "earliest": 570,
+      "latest": 810,
+      "service_time": 72,
+      "hotspot": "九华隧道（二期）及紫薇隧道工程",
+      "hotspot_weight": 309.74349796773856,
+      "source_project": "九华隧道（二期）及紫薇隧道工程"
+    },
+    {
+      "id": 1,
+      "name": "信安大厦项目清表及土石方工程",
+      "x": 118.805955,
+      "y": 28.955883,
+      "demand": 6,
+      "earliest": 570,
+      "latest": 810,
+      "service_time": 72,
+      "hotspot": "信安大厦项目清表及土石方工程",
+      "hotspot_weight": 283.6217963057926,
+      "source_project": "信安大厦项目清表及土石方工程"
+    },
+    {
+      "id": 2,
+      "name": "衢州市西区片水系综合治理工程-水网林网三区块",
+      "x": 118.845207,
+      "y": 28.959428,
+      "demand": 5,
+      "earliest": 570,
+      "latest": 810,
+      "service_time": 63,
+      "hotspot": "衢州市西区片水系综合治理工程-水网林网三区块",
+      "hotspot_weight": 209.88084015300316,
+      "source_project": "衢州市西区片水系综合治理工程-水网林网三区块"
+    },
+    {
+      "id": 3,
+      "name": "百家塘堤（皂角段）土方回填工程",
+      "x": 118.845384,
+      "y": 28.93687,
+      "demand": 5,
+      "earliest": 570,
+      "latest": 810,
+      "service_time": 63,
+      "hotspot": "百家塘堤（皂角段）土方回填工程",
+      "hotspot_weight": 204.60986014916062,
+      "source_project": "百家塘堤（皂角段）土方回填工程"
+    },
+    {
+      "id": 4,
+      "name": "高铁新城-第一学校项目",
+      "x": 118.821329,
+      "y": 28.940434,
+      "demand": 4,
+      "earliest": 564,
+      "latest": 839,
+      "service_time": 54,
+      "hotspot": "高铁新城-第一学校项目",
+      "hotspot_weight": 160.0341406166649,
+      "source_project": "高铁新城-第一学校项目"
+    },
+    {
+      "id": 5,
+      "name": "鹰潭路南侧公园景观工程-鹰潭公园",
+      "x": 118.848582,
+      "y": 28.946116,
+      "demand": 4,
+      "earliest": 561,
+      "latest": 852,
+      "service_time": 54,
+      "hotspot": "鹰潭路南侧公园景观工程-鹰潭公园",
+      "hotspot_weight": 142.25256943703548,
+      "source_project": "鹰潭路南侧公园景观工程-鹰潭公园"
+    },
+    {
+      "id": 6,
+      "name": "衢州市高铁新城基础设施配套“四网”建设工程---寿康路项目",
+      "x": 118.833587,
+      "y": 28.961734,
+      "demand": 2,
+      "earliest": 553,
+      "latest": 894,
+      "service_time": 36,
+      "hotspot": "衢州市高铁新城基础设施配套“四网”建设工程---寿康路项目",
+      "hotspot_weight": 87.29134942727177,
+      "source_project": "衢州市高铁新城基础设施配套“四网”建设工程---寿康路项目"
+    },
+    {
+      "id": 7,
+      "name": "横五路（龙游路-智慧大道西辅路）道路工程）",
+      "x": 118.843003,
+      "y": 28.953077,
+      "demand": 2,
+      "earliest": 552,
+      "latest": 897,
+      "service_time": 36,
+      "hotspot": "横五路（龙游路-智慧大道西辅路）道路工程）",
+      "hotspot_weight": 82.59826612473027,
+      "source_project": "横五路（龙游路-智慧大道西辅路）道路工程）"
+    },
+    {
+      "id": 8,
+      "name": "衢州市鹿鸣半岛时尚文化创业园建设工程",
+      "x": 118.859253,
+      "y": 28.95996,
+      "demand": 1,
+      "earliest": 548,
+      "latest": 916,
+      "service_time": 27,
+      "hotspot": "衢州市鹿鸣半岛时尚文化创业园建设工程",
+      "hotspot_weight": 57.44815304187971,
+      "source_project": "衢州市鹿鸣半岛时尚文化创业园建设工程"
+    },
+    {
+      "id": 9,
+      "name": "衢州市公共卫生服务中心项目",
+      "x": 118.831274,
+      "y": 28.950139,
+      "demand": 1,
+      "earliest": 548,
+      "latest": 916,
+      "service_time": 27,
+      "hotspot": "衢州市公共卫生服务中心项目",
+      "hotspot_weight": 56.90102777481419,
+      "source_project": "衢州市公共卫生服务中心项目"
+    },
+    {
+      "id": 10,
+      "name": "衢州招贤里（西区钱家山）安置小区建设项目",
+      "x": 118.84782,
+      "y": 28.94654,
+      "demand": 1,
+      "earliest": 540,
+      "latest": 958,
+      "service_time": 27,
+      "hotspot": "衢州招贤里（西区钱家山）安置小区建设项目",
+      "hotspot_weight": 1.2802731249333192,
+      "source_project": "衢州招贤里（西区钱家山）安置小区建设项目"
+    }
+  ],
+  "facilities": [
+    {
+      "id": 0,
+      "name": "衢州市",
+      "x": 118.859307,
+      "y": 28.970229,
+      "capacity": 28,
+      "fixed_cost": 122.27,
+      "source_site": "衢州市",
+      "site_weight": 8.0
+    },
+    {
+      "id": 1,
+      "name": "百家塘、大塘头",
+      "x": 118.845384,
+      "y": 28.93687,
+      "capacity": 18,
+      "fixed_cost": 105.22,
+      "source_site": "百家塘、大塘头",
+      "site_weight": 2.0
+    },
+    {
+      "id": 2,
+      "name": "柯城区百家塘村",
+      "x": 118.847743,
+      "y": 28.937336,
+      "capacity": 18,
+      "fixed_cost": 105.83,
+      "source_site": "柯城区百家塘村",
+      "site_weight": 2.0
+    },
+    {
+      "id": 3,
+      "name": "鹿鸣时尚文化创业园（回填）、阳光城",
+      "x": 118.866333,
+      "y": 28.957483,
+      "capacity": 18,
+      "fixed_cost": 108.0,
+      "source_site": "鹿鸣时尚文化创业园（回填）、阳光城",
+      "site_weight": 1.0
+    },
+    {
+      "id": 4,
+      "name": "衢州高速西出口",
+      "x": 118.839677,
+      "y": 28.985343,
+      "capacity": 18,
+      "fixed_cost": 98.3,
+      "source_site": "衢州高速西出口",
+      "site_weight": 1.0
+    },
+    {
+      "id": 5,
+      "name": "衢州市智慧新城龙游路、智慧大道西辅路",
+      "x": 118.843003,
+      "y": 28.953077,
+      "capacity": 18,
+      "fixed_cost": 104.17,
+      "source_site": "衢州市智慧新城龙游路、智慧大道西辅路",
+      "site_weight": 1.0
+    }
+  ]
+}

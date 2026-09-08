@@ -12,9 +12,12 @@ enforcement-by-capacity grid (144 solves).
 data/raw/            frozen input snapshot (read-only)
   cdw_estimation_1990_2022.csv   city-year C&D generation panel
   facility_list.csv              candidate-facility parameterization
+  qz_real_1.json                city dispatch instance (11 points, 6 sites)
+  qz_medium_1.json              larger dispatch instance (50 points, 8 sites)
 src/capacity_audit/         core library (instance schema, covariance models,
                      scenario generation, mean-CVaR SAA solver, recourse LP)
 experiments/
+  tactical.py        city-scale instance IO, evaluation, exact solver
   common.py          shared setup: instance builder, four covariance
                      specifications, design constants
   run_ladder.py           Experiment 1 -> results/ladder.json
@@ -22,6 +25,7 @@ experiments/
   run_enforcement.py      Experiment 2 -> results/enforcement.json
   run_demand_boundary.py  Experiment 3 -> results/demand_boundary.json
   run_shocks.py           Experiment 4 -> results/shocks.json
+  run_tactical.py         Experiment 5 -> results/tactical.json
 results/             output directory (created on first run)
 ```
 
@@ -49,6 +53,7 @@ python experiments/analyze_ladder.py    # ~10 min (scenario re-evaluation)
 python experiments/run_enforcement.py   # ~1 h on one core
 python experiments/run_demand_boundary.py  # ~75 min on one core
 python experiments/run_shocks.py        # ~5 min on one core
+python experiments/run_tactical.py      # ~3 min on one core
 ```
 
 Every experiment script accepts `--smoke` for a fast (reduced-scenario,
